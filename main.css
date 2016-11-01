@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: helvetica, sans-serif;
+}
+
+nav.main-nav {
+  height: 42px;
+  width: 100%;
+  background-color: #eee;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 1.2em;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1 a:hover {
+  text-decoration: underline;
+}
+
+ul.simple-nav {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  list-style-type: none;
+}
+
+ul.simple-nav li {
+  display: inline;
+  padding-left: 15px;
+  font-size: 1.2em;
+}
+
+ul.simple-nav li a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul.simple-nav li a:hover{
+  text-decoration: underline;
+}
+
+main {
+  margin-top: 50px;
+  margin-left: 75px;
+}
+
+input.search-input {
+  width: 300px;
+  height: 30px;
+}
+
+.page-listings {
+  list-style-type: none;
+  margin-top: 50px;
+}
+
+.page-listings li {
+  padding-bottom: 20px;
+}
+.page-listings li a {
+  color: blue;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.page-listings li a:hover {
+  text-decoration: underline;
+}
+
+
+.meta {
+  color: #b5b5b5;
+}
+
+nav.page-nav {
+  margin-top: 30px;
+}
+
+
+.page-nav ul a {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+a.previous {
+ border-radius: 5px 0 0 5px;
+}
+
+a.next {
+  border-radius: 0 2px 2px 0;
+}
+
+nav.page-nav li {
+  display: inline;
+}
+
+li.page-number {
+  border: 1px black solid;
+}
+
+fieldset {
+  border: none;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+h3 {
+  padding-bottom: -25px;
+}
